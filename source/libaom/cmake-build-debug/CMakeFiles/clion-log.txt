@@ -1,0 +1,34 @@
+/home/ayamir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/ayamir/webrtc-checkout/src/third_party/libaom/source/libaom -B /home/ayamir/webrtc-checkout/src/third_party/libaom/source/libaom/cmake-build-debug
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Git: /usr/bin/git (found version "2.37.3") 
+-- Found Perl: /usr/bin/perl (found version "5.36.0") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+--- aom_configure: Detected CPU: x86_64
+Running C compiler test: pie_check
+-- Performing Test C_TEST_COMPILED
+-- Performing Test C_TEST_COMPILED - Success
+CONFIG_PIC enabled for position independent executable (PIE) build
+CMake Error at build/cmake/aom_configure.cmake:164 (message):
+  Unable to find assembler.  Install 'yasm' or 'nasm.' To build without
+  optimizations, add -DAOM_TARGET_CPU=generic to your cmake command line.
+Call Stack (most recent call first):
+  CMakeLists.txt:66 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ayamir/webrtc-checkout/src/third_party/libaom/source/libaom/cmake-build-debug/CMakeFiles/CMakeOutput.log".
